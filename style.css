@@ -42,8 +42,10 @@ ul li a:hover{
 .btn:hover{
     background-color: white;
     border-radius: 8px;
-    padding: 5px;
+    padding: 10px 30px;
     list-style: none;
+    width: auto;
+    margin: 10px;
 }
 
 .btn{
