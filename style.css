@@ -1,0 +1,62 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(https://imgs.search.brave.com/FC_GVqLvHQ1ZI0hBkERrg-Mfsx91vwTsCKOSm9A3Vks/rs:fit:864:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5M/c3RZNk8yZjdORWkw/VkpPWTFPOXlnSGFF/RSZwaWQ9QXBp);
+height: 100vh;
+background-size: cover;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img{
+    width: 150px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    color: black;
+    border-radius: 5px;
+}
+ul li a:hover{
+    background-color: white;  
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+    flex-direction: column;
+    
+    
+    
+}
+.btn:hover{
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px;
+    list-style: none;
+}
+
+.btn{
+    border: solid 1px black;
+    color: black;
+    padding: 10px 30px;
+    text-decoration: none;
+    
+
+}
+.titlle h1{
+    font: size 70px; 
+    color: white;
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
